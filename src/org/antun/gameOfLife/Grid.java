@@ -36,7 +36,7 @@ public class Grid extends JPanel {
 				if (cells[x][y].isAlive()) {
 					int cellX = 10 + (cells[x][y].getX() * 10);
 					int cellY = 10 + (cells[x][y].getY() * 10);
-					g.setColor(Color.GRAY);
+					g.setColor(Color.BLACK);
 					g.fillRect(cellX, cellY, 10, 10);
 				}
 			}
